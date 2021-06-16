@@ -1,0 +1,141 @@
+body, h1, p {
+    margin:0;
+    padding:0;
+}
+body{
+    color: rgb(235, 215, 215);
+} 
+.container{
+    margin: auto;
+    height:fit-content;
+    max-height:500px; 
+    
+    min-height:100vh;
+    display: grid;
+    /* display:grid; */
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+     max-width: 50vw;
+    /* display:flex; */
+    justify-content:center;
+    padding:30px;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+       
+    }
+   h1{
+   padding-top:5px;
+   padding-bottom:10px;
+   }  
+ .para {
+      margin-top:25px;
+      margin-bottom:12px;
+      font-size:16px;
+      margin-bottom:2px;
+      
+     }
+
+
+   .btn {
+    align-items: center;
+    border-radius:20px;
+    border:70px;
+    padding-top:2px;
+    padding-bottom:2px;
+    margin-top: 20px;
+    color:white;
+
+    }
+
+ .orange{
+    /* display:grid; */
+    /* height:50%; */
+    padding:30px;
+    /* width:180px; */
+    background-color: hsl(31, 77% ,52%); 
+    color: white;
+    /* font-size:14px; */
+ }
+ 
+ .cyan{
+    /* display:grid; */
+    /* height: 50%; */
+    /* width: 180px; */
+    padding:30px;
+    background-color:hsl(184, 29%, 32%);
+    color: white;
+    /* font-size:14px; */
+    }
+ .dark_green{
+    /* display:grid; */
+    /* height: 50%; */
+    /* width:180%; */
+    padding: 30px;
+    background-color:hsl(183, 96%, 11%);
+    color:white;
+    /* font-size:14px; */
+
+ }
+  /* mobile screen sizes/* */
+
+  @media screen and (max-width:600px) {
+
+body{
+   display:flex;
+}
+   container{
+   margin: auto;
+   height:fit-content;
+   max-height:auto; 
+   
+   min-height:100vh;
+   display: flex;
+   /* display:grid; */
+   flex-basis:auto;
+   /* grid-template-columns: repeat(1, 1fr); */
+   align-items: center;
+    /* max-width: 50vw; */
+   /* display:flex; */
+   justify-content:center;
+   /* padding:10px; */
+   align-items: center;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 12px;
+   line-height: 1.5em;
+}
+
+ 
+ .orange{
+   display:flex;
+   /* height:50%; */
+   padding:30px;
+   /* width:180px; */
+   background-color: hsl(31, 77% ,52%); 
+   color: white;
+   /* font-size:14px; */
+}
+
+.cyan{
+   display:flex;
+   /* height: 50%; */
+   /* width: 180px; */
+   padding:30px;
+   background-color:hsl(184, 29%, 32%);
+   color: white;
+   /* font-size:14px; */
+   }
+.dark_green{
+   display:flex;
+   /* height: 50%; */
+   /* width:180%; */
+   padding: 30px;
+   background-color:hsl(183, 96%, 11%);
+   color:white;
+
+
+}
+
+
+
